@@ -1,6 +1,6 @@
 <?php
 
-$connection -> $connection = new mysqli("localhost", "root", "", "xyz");
+$connection = new mysqli("localhost", "root", "", "dbtest");
 
 
 
