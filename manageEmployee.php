@@ -60,7 +60,7 @@
                                     <th>Hourly Rate</th>
                                 </tr>
                             </thead>
-                            <tbody >
+                            <tbody>
                                     <?php
 
                                         $result = $connection -> query("SELECT * FROM employee;");
