@@ -6,4 +6,4 @@
 
 	$connection -> query("DELETE FROM employee WHERE id=$id;");
 
-	header("location: manageEmployee.php");
+	header("location: manageEmployee.php")
