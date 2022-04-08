@@ -25,32 +25,41 @@
                             <div class="row">
                                 <div class="mb-3">
                                     <label for="firstName" class="form-label" >First Name</label>
-                                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                                    <input type="text" class="form-control"name="firstName" id="firstName" placeholder="First Name">
                                 </div>
                                 <div class="mb-3">
                                     <label for="lastName" class="form-label" >Last Name</label>
-                                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                                    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last Name">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="mb-3">
                                     <label for="" class="form-label" >Email address</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Email Address">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="mb-3">
                                     <label for="password" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                    <input type="password" class="form-control" name="password" id="password" placeholder="Password">
                                 </div>
                                 <div class="mb-3">
                                     <label for="confirmPassword" class="form-label">Confirm Password</label>
-                                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+                                    <input type="password" class="form-control" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
                                 </div>
                             </div>
-
+                            
+                            <div class="row">
+                                <label for="clearanceLevel" class="form-label">Clearance Level</label>
+                                <select name="clearanceLevel" class="form-control" id="clearanceLevel">
+                                    <option value="Super Admin">Super Admin</option>
+                                    <option value="Level 1 Admin">Level 1 Admin</option>
+                                    <option value="Level 2 Admin">Level 2 Admin</option>
+                                    <option value="Level 3 Admin">Level 3 Admin</option>
+                                </select>
+                            </div>
                             
                             <button type="submit" class="btn btn-primary login-btn">Register</button>
                         </form>

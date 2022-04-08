@@ -1,6 +1,7 @@
 <?php
 
-$connection = new mysqli("localhost", "root", "", "dbtest");
+$connection = new mysqli("localhost", "root", "", "hackathon");
+
 
 
 
