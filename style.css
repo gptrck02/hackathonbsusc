@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login-page{
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 80vh;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.login-box{
+    width: 400px;
+    background-color: white;
+    padding: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 1rem;
+}
