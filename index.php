@@ -27,7 +27,7 @@
             <div class="row justify-content-center">
                 <div class="login-page">
                     <div class="login-box">
-                        <form>
+                        <form action="" method="POST">
                             <div class="mb-3">
                                 <label for="email" class="form-label" >Email address</label>
                                 <input type="email" class="form-control" id="email" placeholder="Email Address">
