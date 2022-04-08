@@ -1,3 +1,9 @@
+<?php
+    
+    require_once "dbConnection.php";
+
+?>
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -20,7 +26,7 @@
                 <div class="registration-page">
                     <div class="registration-box">
                         <h2 class="registration-title">Edit Employee</h2>
-                        <form action="" method="POST">
+                        <form action="editEmployeeProcess.php" method="POST">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="mb-3">
@@ -83,7 +89,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="manageEmployee.html" class='btn btn-primary back-btn' name = 'add'>
+                            <a href="manageEmployee.php" class='btn btn-primary back-btn' name = 'add'>
                                 <i class='fas fa-plus'></i> Back
                             </a>
                             <button type="submit" class="btn btn-primary login-btn">Save</button>
