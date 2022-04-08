@@ -60,7 +60,7 @@
                                     <th>Hourly Rate</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody >
                                     <?php
 
                                         $result = $connection -> query("SELECT * FROM employee;");
@@ -77,9 +77,9 @@
                                                             <a href='editEmployee.php' class='btn btn-primary action-button edit-button' name = 'edit'>
                                                                 <i class='fas fa-edit'></i> Edit
                                                             </a>
-                                                            <button class='btn btn-danger action-button' name = 'delete'>
+                                                            <a href='deleteProcess.php?id=".$record['id']."'><button class='btn btn-danger action-button' name = 'delete'>
                                                                 <i class='fas fa-trash'></i> Delete
-                                                            </button>
+                                                            </button></a>
                                                         </td>
                                                         <td>".$record['id']."</td>
                                                         <td>".$record['firstName']."</td>
