@@ -27,3 +27,12 @@
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 1rem;
 }
+.login-btn{
+    background-color: #212529;
+    border: 1px solid #212529;
+}
+.login-btn:hover{
+    background-color: #212529;
+    border: 1px solid #212529;
+    opacity: 80%;
+}
