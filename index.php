@@ -1,6 +1,6 @@
 <?php
 
-    require_once "dbConnection.php";
+    require_once "dbConnection.php";j
 
 ?>
 
@@ -17,22 +17,24 @@
     <title>Hello, world!</title>
   </head>
   <body>
-      
+    <header>
+      <div>Employee Management System</div>
+    </header>
+
     <div class="container pt-5">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-12">
-                <form>
-                  <div class="mb-3">
-                    <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password">
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+              <form>
+                <div class="mb-3">
+                  <label for="email" class="form-label" >Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email Address">
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+              </form>
             </div>
         </div>
     </div>
