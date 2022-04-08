@@ -1,6 +1,6 @@
 <?php
 
-    require_once "dbConnection.php";j
+    require_once "dbConnection.php";
 
 ?>
 
